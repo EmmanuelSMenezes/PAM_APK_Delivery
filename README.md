@@ -1,4 +1,4 @@
-# PAM_APK_Delivery
+# 📱 PAM_APK_Delivery
 
 <div align="center">
 
@@ -7,142 +7,114 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-**Aplicativo movel nativo para a Plataforma PAM**
+**Aplicativo móvel nativo para a Plataforma PAM**
 
-[Demo](#demo) â€¢ [Documentacao](#documentacao) â€¢ [Instalacao](#instalacao) â€¢ [Contribuicao](#contribuicao)
+[🚀 Demo](#demo) • [📖 Documentação](#documentacao) • [🛠️ Instalação](#instalacao) • [🤝 Contribuição](#contribuicao)
 
 </div>
 
 ---
 
-## Sobre o Projeto
+## 📋 Sobre o Projeto
 
-Aplicativo movel para entregadores e tecnicos da plataforma PAM. Interface otimizada para profissionais em campo, com funcionalidades de gerenciamento de rotas, atualizacao de status de pedidos, comunicacao com clientes, relatorios de campo, navegacao GPS e otimizacao de entregas. Desenvolvido com React Native e Expo.
+**Aplicativo móvel para entregadores e técnicos** da plataforma PAM. Interface otimizada para profissionais em campo, com funcionalidades de gerenciamento de rotas, atualização de status de pedidos, comunicação com clientes, relatórios de campo, navegação GPS e otimização de entregas. Desenvolvido com React Native e Expo.
 
-### Principais Funcionalidades
+### 🎯 Principais Funcionalidades
 
-- **Navegacao GPS**: Rotas otimizadas e navegacao turn-by-turn
-- **Lista de Pedidos**: Gestao eficiente de tarefas diarias
-- **Status em Tempo Real**: Atualizacoes instantaneas
-- **Relatorios de Campo**: Fotos e documentacao de servicos
-- **Chat com Clientes**: Comunicacao direta e eficiente
-- **Controle de Tempo**: Registro de horas trabalhadas
-- **Performance**: Metricas pessoais e metas
-- **Notificacoes**: Alertas de novos pedidos
-- **Modo Offline**: Funcionalidades basicas sem internet
-- **Seguranca**: Autenticacao biometrica
+- 🗺️ **Navegação GPS**: Rotas otimizadas e navegação turn-by-turn
+- 📋 **Lista de Pedidos**: Gestão eficiente de tarefas diárias
+- 🔄 **Status em Tempo Real**: Atualizações instantâneas
+- 📸 **Relatórios de Campo**: Fotos e documentação de serviços
+- 💬 **Chat com Clientes**: Comunicação direta e eficiente
+- ⏰ **Controle de Tempo**: Registro de horas trabalhadas
+- 📊 **Performance**: Métricas pessoais e metas
+- 🔔 **Notificações**: Alertas de novos pedidos
+- 📱 **Modo Offline**: Funcionalidades básicas sem internet
+- 🛡️ **Segurança**: Autenticação biométrica
 
-## Tecnologias
+## 🚀 Tecnologias
 
 ### Mobile Framework
 - **[React Native](https://reactnative.dev/)** - Framework para desenvolvimento mobile
 - **[Expo](https://expo.dev/)** - Plataforma de desenvolvimento
-- **[TypeScript](https://www.typescriptlang.org/)** - Tipagem estatica
+- **[TypeScript](https://www.typescriptlang.org/)** - Tipagem estática
 
-### Navegacao e Estado
-- **[React Navigation](https://reactnavigation.org/)** - Navegacao entre telas
+### Navegação e Estado
+- **[React Navigation](https://reactnavigation.org/)** - Navegação entre telas
 - **[Redux Toolkit](https://redux-toolkit.js.org/)** - Gerenciamento de estado
 
-## Pre-requisitos
+## 📦 Pré-requisitos
 
-- **[Node.js 18+](https://nodejs.org/)** (versao LTS recomendada)
+- **[Node.js 18+](https://nodejs.org/)** (versão LTS recomendada)
 - **[Expo CLI](https://docs.expo.dev/get-started/installation/)** - Ferramenta de desenvolvimento
-- **[Git](https://git-scm.com/)** - Controle de versao
+- **[Git](https://git-scm.com/)** - Controle de versão
 
-## Instalacao
+## 🛠️ Instalação
 
-### 1. Clone o Repositorio
+### 1️⃣ Clone o Repositório
 
-`ash
+```bash
 git clone https://github.com/EmmanuelSMenezes/PAM_APK_Delivery.git
 cd PAM_APK_Delivery
-`
+```
 
-### 2. Instalar Dependencias
+### 2️⃣ Instalar Dependências
 
-`ash
+```bash
 npm install
 # ou
 yarn install
-`
+```
 
-### 3. Configuracao do Ambiente
+### 3️⃣ Executar em Desenvolvimento
 
-`ash
-cp .env.example .env
-`
-
-### 4. Executar em Desenvolvimento
-
-`ash
+```bash
 expo start
-`
+```
 
-### 5. Executar no Dispositivo
+### 4️⃣ Executar no Dispositivo
 
 #### Expo Go (Recomendado)
 1. Instale o **Expo Go** no seu dispositivo
 2. Escaneie o QR code exibido no terminal
 
 #### Simuladores/Emuladores
-`ash
+```bash
 # Android
 expo start --android
 
 # iOS (apenas macOS)
 expo start --ios
-`
+```
 
-## Build e Deploy
+## 🧪 Testes
 
-### Build de Desenvolvimento
-
-`ash
-# Android APK
-eas build --platform android --profile development
-
-# iOS IPA
-eas build --platform ios --profile development
-`
-
-### Build de Producao
-
-`ash
-# Android (Google Play)
-eas build --platform android --profile production
-
-# iOS (App Store)
-eas build --platform ios --profile production
-`
-
-## Testes
-
-`ash
+```bash
 npm test
-`
+```
 
-## Contribuicao
+## 🤝 Contribuição
 
 1. Fork o projeto
-2. Crie uma branch (git checkout -b feature/nova-funcionalidade)
-3. Commit suas mudancas (git commit -m 'feat: nova funcionalidade')
-4. Push para a branch (git push origin feature/nova-funcionalidade)
+2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
+3. Commit suas mudanças (`git commit -m 'feat: nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/nova-funcionalidade`)
 5. Abra um Pull Request
 
-## Licenca
+## 📄 Licença
 
-Este projeto esta sob a licenca **MIT**. Veja [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença **MIT**. Veja [LICENSE](LICENSE) para mais detalhes.
 
-## Suporte
+## 🆘 Suporte
 
-- **Email**: suporte@pam.com
-- **Issues**: [GitHub Issues](https://github.com/EmmanuelSMenezes/PAM_APK_Delivery/issues)
+- **📧 Email**: suporte@pam.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/EmmanuelSMenezes/PAM_APK_Delivery/issues)
 
 ---
 
 <div align="center">
 
-**PAM - Plataforma de Agendamento de Manutencao**  
-*Desenvolvido com amor pela equipe PAM*
+**PAM - Plataforma de Agendamento de Manutenção**
+*Desenvolvido com ❤️ pela equipe PAM*
 
 </div>
